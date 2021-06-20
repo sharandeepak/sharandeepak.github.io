@@ -327,10 +327,14 @@ img {
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
-
-.skills__names {
+.skills_names{
+  justify-content: center;
+}
+.skills__name {
   display: flex;
   align-items: center;
+  font-weight: 500;
+  font-size: var(--body-font);
 }
 
 .skills__bar {
@@ -756,3 +760,4 @@ button.animated-button.thar-three:before {
 	background: #F7CA18;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1); 
 }
+
